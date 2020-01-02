@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         navigationView.setSpaceOnClickListener(object: SpaceOnClickListener {
             override fun onCentreButtonClick() {
                 Toast.makeText(applicationContext, "onCentreButtonClicked", Toast.LENGTH_SHORT).show()
+                navigationView.setCentreButtonSelectable(true)
             }
 
             override fun onItemReselected(itemIndex: Int, itemName: String?) {
