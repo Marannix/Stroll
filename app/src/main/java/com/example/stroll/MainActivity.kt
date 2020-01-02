@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun addItemToBottomNavigationView(savedInstanceState: Bundle?) {
         navigationView.initWithSaveInstanceState(savedInstanceState)
-        navigationView.addSpaceItem(SpaceItem("", R.drawable.ic_history_black_24dp))
-        navigationView.addSpaceItem(SpaceItem("", R.drawable.ic_add_black_24dp))
+        navigationView.addSpaceItem(SpaceItem("", R.drawable.ic_clipboards))
+        navigationView.addSpaceItem(SpaceItem("", R.drawable.ic_heart))
     }
 
     private fun setNavigationViewClickListener() {
