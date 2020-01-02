@@ -8,7 +8,7 @@
 
 ### What does this project do?
 
-I've added a bottom navigation tab to for navigating between fragment in the dashboard. 
+I've added a bottom navigation tab for navigating between fragment in the dashboard. 
 
 | Profile Tab | List Tab | Favourite Tab |
 |---|---|---|
